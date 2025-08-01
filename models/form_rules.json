@@ -1,0 +1,128 @@
+{
+    "00_Short Serve": {
+        "ideal_elbow_angle": 137.5,
+        "ideal_shoulder_angle": 89.80000305175781,
+        "ideal_wrist_contact_height": 0.5699999928474426,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "01_Cross Court Flight": {
+        "ideal_elbow_angle": 173.60000610351562,
+        "ideal_shoulder_angle": 39.900001525878906,
+        "ideal_wrist_contact_height": 0.6299999952316284,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "02_Lift": {
+        "ideal_elbow_angle": 144.60000610351562,
+        "ideal_shoulder_angle": 96.69999694824219,
+        "ideal_wrist_contact_height": 0.6299999952316284,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "03_Tap Smash": {
+        "ideal_elbow_angle": 164.10000610351562,
+        "ideal_shoulder_angle": 83.5,
+        "ideal_wrist_contact_height": 0.5199999809265137,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "04_Block": {
+        "ideal_elbow_angle": 142.39999389648438,
+        "ideal_shoulder_angle": 19.200000762939453,
+        "ideal_wrist_contact_height": 0.6600000262260437,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "05_Drop Shot": {
+        "ideal_elbow_angle": 171.60000610351562,
+        "ideal_shoulder_angle": 69.5999984741211,
+        "ideal_wrist_contact_height": 0.5799999833106995,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "06_Push Shot": {
+        "ideal_elbow_angle": 133.3000030517578,
+        "ideal_shoulder_angle": 35.599998474121094,
+        "ideal_wrist_contact_height": 0.6200000047683716,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "07_Transitional Slice": {
+        "ideal_elbow_angle": 161.39999389648438,
+        "ideal_shoulder_angle": 118.30000305175781,
+        "ideal_wrist_contact_height": 0.6000000238418579,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "08_Cut": {
+        "ideal_elbow_angle": 145.39999389648438,
+        "ideal_shoulder_angle": 71.80000305175781,
+        "ideal_wrist_contact_height": 0.6200000047683716,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "09_Rush Shot": {
+        "ideal_elbow_angle": 175.60000610351562,
+        "ideal_shoulder_angle": 57.099998474121094,
+        "ideal_wrist_contact_height": 0.5600000023841858,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "10_Defensive Clear": {
+        "ideal_elbow_angle": 162.5,
+        "ideal_shoulder_angle": 120.4000015258789,
+        "ideal_wrist_contact_height": 0.5400000214576721,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "11_Defensive Drive": {
+        "ideal_elbow_angle": 158.89999389648438,
+        "ideal_shoulder_angle": 36.79999923706055,
+        "ideal_wrist_contact_height": 0.6899999976158142,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "12_Clear": {
+        "ideal_elbow_angle": 156.3000030517578,
+        "ideal_shoulder_angle": 122.80000305175781,
+        "ideal_wrist_contact_height": 0.5699999928474426,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "13_Long Serve": {
+        "ideal_elbow_angle": 149.5,
+        "ideal_shoulder_angle": 119.0999984741211,
+        "ideal_wrist_contact_height": 0.5799999833106995,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "14_Smash": {
+        "ideal_elbow_angle": 172.5,
+        "ideal_shoulder_angle": 88.0999984741211,
+        "ideal_wrist_contact_height": 0.5899999737739563,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "15_Flat Shot": {
+        "ideal_elbow_angle": 175.6999969482422,
+        "ideal_shoulder_angle": 46.900001525878906,
+        "ideal_wrist_contact_height": 0.6399999856948853,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "16_Rear Court Flat Drive": {
+        "ideal_elbow_angle": 171.3000030517578,
+        "ideal_shoulder_angle": 127.0999984741211,
+        "ideal_wrist_contact_height": 0.6100000143051147,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    },
+    "17_Short Flat Shot": {
+        "ideal_elbow_angle": 167.60000610351562,
+        "ideal_shoulder_angle": 61.5,
+        "ideal_wrist_contact_height": 0.6200000047683716,
+        "feedback_low_elbow": "Try to extend your arm more at contact.",
+        "feedback_high_contact": "Good height! You're hitting on top of the shuttle."
+    }
+}
