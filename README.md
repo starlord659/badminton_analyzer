@@ -25,3 +25,17 @@ This project provides tools for analyzing human poses in videos, classifying act
 ## Setup
 
 1.  **Clone the repository:**
+bash git clone <repository_url> cd <repository_directory>
+2.  **Set up the development environment:**
+bash python -m venv venv source venv/bin/activate pip install -r requirements.txt
+3.  **Download required models:**
+4.  ## Dependencies
+
+The project dependencies are listed in `requirements.txt`. Key dependencies include:
+
+-   `torch` and `torchvision`: For building and running deep learning models.
+-   `ultralytics`: For YOLO models.
+-   `numpy`: For numerical operations.
+-   `opencv-python`: For video processing.
+-   `tqdm`: For progress bars.
+-   `scikit-learn`: For data splitting and potentially other utilities.
