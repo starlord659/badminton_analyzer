@@ -1,0 +1,66 @@
+# config.yaml
+
+# --- File Paths & Directories ---
+# The root directory where preprocessed .npy files are stored.
+# This directory should contain subdirectories, one for each class.
+data_path: "preprocessed_multimodal_v5_engineered/"
+
+# Directory to save all training outputs (models, logs, plots).
+# A unique timestamped sub-directory will be created here for each run.
+output_dir: "training_runs/"
+
+# --- Dataset & Preprocessing ---
+# Normalization parameters for the dataset. These will be calculated
+# if they don't exist, or loaded if they do.
+normalization_params_filename: "normalization_params.npz"
+class_map_filename: "class_map.json"
+
+# --- Model Architecture ---
+model:
+  # The dimension of the model's internal representations. Must be divisible by nhead.
+  d_model: 128
+  # Number of attention heads in the multi-head attention mechanism.
+  nhead: 4
+  # Number of stacked transformer encoder layers.
+  num_encoder_layers: 3
+  # Dimension of the feed-forward network within each encoder layer.
+  dim_feedforward: 256
+  # Dropout rate applied throughout the model.
+  dropout: 0.4
+
+# --- Training Hyperparameters ---
+training:
+  # Device to use for training ('cuda' or 'cpu'). 'auto' will select cuda if available.
+  device: "auto"
+  # Number of training epochs.
+  epochs: 200
+  # Number of samples per batch.
+  batch_size: 64
+  # Initial learning rate for the Adam optimizer.
+  learning_rate: 0.00002 # 2e-5
+  # Weight decay (L2 penalty) for the optimizer.
+  weight_decay: 0.0001
+  # Max norm for gradient clipping. Helps prevent exploding gradients.
+  gradient_clip_norm: 1.0
+
+# --- Learning Rate Scheduler ---
+scheduler:
+  # 'min' or 'max'. Monitors validation loss ('min') or accuracy ('max').
+  mode: "min"
+  # Number of epochs with no improvement after which learning rate will be reduced.
+  patience: 10
+  # Factor by which the learning rate will be reduced. new_lr = lr * factor.
+  factor: 0.5
+
+# --- Data Augmentation ---
+augmentation:
+  # Whether to apply augmentation during training.
+  enabled: true
+  # Standard deviation of the Gaussian noise to add to keypoints.
+  # A small value like 0.01 can improve robustness. Set to 0 to disable.
+  noise_std: 0.01
+
+# --- Dataloader Settings ---
+# Number of worker processes for data loading.
+# Set to 0 on Windows or if you encounter issues. Use > 0 on Linux for performance.
+num_workers: 4

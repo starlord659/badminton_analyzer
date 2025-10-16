@@ -1,0 +1,6 @@
+{
+  "peak_prominence": 0.04,
+  "peak_height": 0.05,
+  "slope_thresh": 28,
+  "min_hit_separation_seconds": 0.25
+}
